@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dipesh Tha Shrestha is a Data Analyst and Data Engineer building data-driven products, dashboards, and machine-learning projects." />
+  <meta name="keywords" content="Dipesh Tha Shrestha, Data Analyst, Data Engineer, Python, SQL, Tableau, Machine Learning, Portfolio" />
+  <meta name="author" content="Dipesh Tha Shrestha" />
+  <meta property="og:title" content="Dipesh Tha Shrestha | Data Analyst & Data Engineer" />
+  <meta property="og:description" content="A dark-fantasy inspired portfolio for data analytics, data engineering, and machine-learning projects." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0c0b0d" />
+  <title>Dipesh Tha Shrestha | Data Analyst & Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="embers"></canvas>
+  <div class="noise"></div>
+  <div class="page-glow glow-a"></div><div class="page-glow glow-b"></div>
+
+  <header class="topbar">
+    <a href="#home" class="brand" aria-label="Home">
+      <span class="sigil"><span>ᛞ</span></span>
+      <span><strong>DIPESH THA SHRESTHA</strong><small>HOUSE OF DATA • BUILDER OF INSIGHTS</small></span>
+    </a>
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to Scholar's Scroll light theme"><span>☾</span><b>DRAGON COURT</b></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation"><span></span><span></span></button>
+    </div>
+    <nav id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#featured">Featured</a>
+      <a href="#council">Skills</a>
+      <a href="#chronicles">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#honors">Honors</a>
+      <a href="#raven">Contact</a>
+    </nav>
+    <a class="scroll-btn" href="assets/Dipesh_ThaShrestha_Resume.pdf" download>Read the Scroll <b>↗</b></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">✦ HOUSE OF DATA. BUILDER OF INSIGHTS. ✦</p>
+        <h1>FORGED IN<br><span>CURIOSITY.</span><br>BUILT FOR DATA.</h1>
+        <p class="hero-text">I turn raw data into clear insights, build practical systems, and help teams make decisions with confidence.</p>
+        <div class="role-line"><span>◈</span> DATA ANALYST &amp; DATA ENGINEER</div>
+        <div class="hero-actions">
+          <a class="btn primary" href="#featured">Explore My Realm <span>→</span></a>
+          <a class="btn secondary" href="#raven">Send a Raven <span>✦</span></a>
+        </div>
+        <div class="traits"><span>🛡 Data Warrior</span><span>✦ Problem Solver</span><span>▥ Insight Builder</span></div>
+      </div>
+
+      <div class="hero-sigil reveal delay-1" aria-hidden="true">
+        <div class="ring ring-1"></div><div class="ring ring-2"></div>
+        <div class="dragon-mark">♜</div>
+        <div class="sigil-caption">DATA IS NOT JUST<br>INFORMATION.<br><b>IT IS POWER.</b></div>
+      </div>
+
+      <div class="profile-card reveal delay-2">
+        <div class="card-flame"></div><div class="frame-corners"></div>
+        <img src="assets/dipeshtha.png" alt="Dipesh Tha Shrestha" />
+        <div class="profile-overlay"></div>
+        <div class="profile-meta"><span>THE DATA KEEPER</span><strong>DIPESH THA<br>SHRESTHA</strong></div>
+        <div class="availability"><i></i> Available for<br><b>Data Analyst &amp;<br>Data Engineer Roles</b></div>
+      </div>
+    </section>
+
+    <section class="stats section reveal" aria-label="Portfolio stats">
+      <article><span>⚔</span><b>3+</b><small>Years of Experience</small></article>
+      <article><span>♜</span><b>10+</b><small>Projects Completed</small></article>
+      <article><span>◉</span><b>5+</b><small>Technologies Mastered</small></article>
+      <article><span>♛</span><b>100%</b><small>Commitment</small></article>
+    </section>
+
+    <section id="featured" class="featured section reveal">
+      <div class="featured-copy">
+        <p class="panel-kicker">THE FEATURED CHRONICLE</p>
+        <h2>USED CAR PRICE<br><span>PREDICTION SYSTEM</span></h2>
+        <p>An end-to-end machine-learning project focused on preparing used-car data, comparing models, and turning model logic into a practical prediction workflow.</p>
+        <div class="metric-row">
+          <div><small>DOMAIN</small><b>Automotive</b></div>
+          <div><small>STACK</small><b>Python · ML · Flask</b></div>
+          <div><small>FOCUS</small><b>Data → Decision</b></div>
+        </div>
+        <div class="hero-actions">
+          <button class="btn primary project-open" data-project="car">View Chronicle <span>↗</span></button>
+          <a class="btn secondary" href="https://github.com/dipeshthashrestha1" target="_blank" rel="noreferrer">Visit GitHub <span>↗</span></a>
+        </div>
+      </div>
+      <div class="project-preview" aria-label="Illustrative vehicle price model project visual">
+        <div class="preview-title"><span>MODEL CHAMBER</span><b>Price Signal Preview</b><i>Illustrative visual</i></div>
+        <div class="preview-body">
+          <div class="car-card"><span class="car-icon">🚗</span><p><b>USED VEHICLE</b><small>Features prepared for prediction</small></p><em>$</em></div>
+          <div class="chart-wrap"><span class="axis y">Estimated value</span><span class="axis x">Mileage &amp; model year</span><svg viewBox="0 0 480 220" role="img" aria-label="Illustrative scatter plot showing price relationship"><defs><linearGradient id="line" x1="0" x2="1"><stop stop-color="#8e2021"/><stop offset="1" stop-color="#d7b066"/></linearGradient></defs><path class="gridline" d="M20 20H460M20 70H460M20 120H460M20 170H460M20 20V190M110 20V190M200 20V190M290 20V190M380 20V190M460 20V190"/><path class="trend" d="M31 52 C100 61 137 78 190 100 S315 144 450 168"/><g class="dots"><circle cx="54" cy="50" r="5"/><circle cx="92" cy="65" r="4"/><circle cx="125" cy="68" r="4"/><circle cx="161" cy="94" r="5"/><circle cx="217" cy="105" r="4"/><circle cx="264" cy="125" r="5"/><circle cx="307" cy="132" r="4"/><circle cx="349" cy="155" r="5"/><circle cx="415" cy="160" r="5"/></g></svg></div>
+        </div>
+        <div class="preview-footer"><span>DATA CLEANING</span><span>FEATURE ENGINEERING</span><span>MODEL EVALUATION</span></div>
+      </div>
+    </section>
+
+    <section id="council" class="council-section section reveal">
+      <div class="section-heading">
+        <div><p class="panel-kicker">THE SMALL COUNCIL</p><h2>CRAFTS THAT<br><span>MOVE DATA FORWARD.</span></h2></div>
+        <p>My work sits between analytical thinking and practical delivery: cleaning data, asking better questions, building repeatable workflows, and communicating the story behind the numbers.</p>
+      </div>
+      <div class="council-layout">
+        <div class="council-crest" aria-hidden="true"><div class="crest-ring"></div><div class="crest-core">♛</div><span>THE<br>SMALL<br>COUNCIL</span></div>
+        <div class="skill-grid">
+          <button class="skill-card" data-skill="Python"><i>Py</i><div><b>Python</b><span>90 / 100</span><small>Analysis, automation, ML workflows</small></div><em>↗</em></button>
+          <button class="skill-card" data-skill="SQL"><i>DB</i><div><b>SQL</b><span>85 / 100</span><small>Queries, joins, data exploration</small></div><em>↗</em></button>
+          <button class="skill-card" data-skill="Tableau"><i>▥</i><div><b>Tableau</b><span>80 / 100</span><small>Dashboards and visual storytelling</small></div><em>↗</em></button>
+          <button class="skill-card" data-skill="Data Analysis"><i>◫</i><div><b>Data Analysis</b><span>90 / 100</span><small>Questions, trends, recommendations</small></div><em>↗</em></button>
+          <button class="skill-card" data-skill="Data Engineering"><i>⚙</i><div><b>ETL &amp; Data Engineering</b><span>78 / 100</span><small>Reliable flows and data preparation</small></div><em>↗</em></button>
+          <button class="skill-card" data-skill="Machine Learning"><i>✦</i><div><b>Machine Learning</b><span>80 / 100</span><small>Prediction and pattern detection</small></div><em>↗</em></button>
+        </div>
+      </div>
+      <div class="skill-detail wide" id="skillDetail" aria-live="polite"><b>Choose a council member</b><span>Each craft has a role in moving from raw information to useful decisions. Select a skill above to see how I use it.</span></div>
+    </section>
+
+    <section id="chronicles" class="chronicles-section section reveal">
+      <div class="section-heading">
+        <div><p class="panel-kicker">THE ARCHIVES OF THE HOUSE</p><h2>PROJECT<br><span>CHRONICLES.</span></h2></div>
+        <p>Every project is a different kind of campaign: an analytical question, a set of messy inputs, a process for finding signals, and a final output that helps someone act with more confidence.</p>
+      </div>
+      <div class="chronicle-grid">
+        <article class="chronicle-card featured-card">
+          <div class="chronicle-top"><span>01</span><small>FEATURED CHRONICLE</small><i>🚗</i></div>
+          <h3>USED CAR PRICE<br> PREDICTION SYSTEM</h3>
+          <p>Built an end-to-end machine-learning workflow to estimate used-car prices from features such as year, mileage, manufacturer, condition, and location.</p>
+          <div class="chronicle-meta"><span>Data Cleaning</span><span>Feature Engineering</span><span>Model Evaluation</span></div>
+          <div class="chronicle-footer"><div><small>STACK</small><b>Python · Pandas · Scikit-learn · Flask</b></div><button class="btn primary project-open" data-project="car">Open Chronicle <span>↗</span></button></div>
+        </article>
+        <article class="chronicle-card">
+          <div class="chronicle-top"><span>02</span><small>SPORTS ANALYTICS</small><i>⚽</i></div>
+          <h3>UEFA CHAMPIONS<br>LEAGUE ANALYSIS</h3>
+          <p>Explored club performance, goals, wins, tournament stages, and football patterns through a dashboard-first analytical storytelling approach.</p>
+          <div class="chronicle-meta"><span>Performance Trends</span><span>Data Storytelling</span><span>Dashboard Design</span></div>
+          <div class="chronicle-footer"><div><small>STACK</small><b>Power BI · DAX · SQL</b></div><button class="btn secondary project-open" data-project="uefa">Open Chronicle <span>↗</span></button></div>
+        </article>
+        <article class="chronicle-card">
+          <div class="chronicle-top"><span>03</span><small>SECURITY ANALYTICS</small><i>🛡</i></div>
+          <h3>CYBERSECURITY<br>THREAT DETECTION</h3>
+          <p>Applied data analysis and machine-learning thinking to surface suspicious patterns and support safer, more informed digital systems.</p>
+          <div class="chronicle-meta"><span>Pattern Analysis</span><span>Security Context</span><span>Model Thinking</span></div>
+          <div class="chronicle-footer"><div><small>STACK</small><b>Python · Machine Learning · Security</b></div><button class="btn secondary project-open" data-project="cyber">Open Chronicle <span>↗</span></button></div>
+        </article>
+      </div>
+      <div class="chronicle-callout"><span>✦</span><p><b>Looking for the full archive?</b> Explore repositories, live work, and future builds through my GitHub.</p><a class="text-btn" href="https://github.com/dipeshthashrestha1" target="_blank" rel="noreferrer">Enter the Archive <span>↗</span></a></div>
+    </section>
+
+    <section id="journey" class="journey-section section reveal">
+      <div class="section-heading"><div><p class="panel-kicker">THE RISE OF THE HOUSE</p><h2>THE JOURNEY<br><span>BEHIND THE WORK.</span></h2></div><p>A path shaped by computer science, practical marketing analytics, graduate study, and the decision to build useful work that connects technical depth with real-world needs.</p></div>
+      <div class="journey-path">
+        <article class="journey-chapter"><div class="chapter-mark">I</div><div><p class="chapter-date">2018</p><h3>FOUNDATIONS IN<br>COMPUTER SCIENCE</h3><p>Completed a Bachelor’s degree in Computer Science at Tribhuvan University in Nepal, building a foundation in programming, systems, and problem solving.</p><ul><li>Programming fundamentals</li><li>Data structures and algorithms</li><li>Core computing concepts</li></ul></div></article>
+        <article class="journey-chapter"><div class="chapter-mark">II</div><div><p class="chapter-date">2020 — 2022</p><h3>MARKETING,<br>ANALYTICS &amp; GROWTH</h3><p>Worked across digital marketing and analytics, where reporting, SEO, audience behavior, and clear communication became part of the everyday workflow.</p><ul><li>Performance reporting</li><li>SEO and content strategy</li><li>Data-informed decisions</li></ul></div></article>
+        <article class="journey-chapter"><div class="chapter-mark">III</div><div><p class="chapter-date">2024 — 2026</p><h3>MASTER’S IN<br>COMPUTER SCIENCE</h3><p>Advanced technical skills through graduate study at Fitchburg State University, with work spanning machine learning, artificial intelligence, algorithms, and statistics.</p><ul><li>Machine learning and AI</li><li>Algorithms and statistics</li><li>Project-based problem solving</li></ul></div></article>
+        <article class="journey-chapter future"><div class="chapter-mark">IV</div><div><p class="chapter-date">NOW</p><h3>BUILDING THE<br>NEXT CHAPTER</h3><p>Focused on data analyst and data engineer opportunities where I can turn raw information into reliable insights, practical products, and measurable progress.</p><a class="text-btn" href="#raven">Write the next chapter <span>→</span></a></div></article>
+      </div>
+    </section>
+
+    <section id="honors" class="honors-section section reveal">
+      <div class="section-heading"><div><p class="panel-kicker">SCROLLS &amp; HONORS</p><h2>LEARNING THAT<br><span>STAYS IN MOTION.</span></h2></div><p>Certificates are not trophies on a shelf. They are evidence of curiosity, structured learning, and the habit of staying close to how technology, data, and responsible AI continue to evolve.</p></div>
+      <div class="honor-grid">
+        <article class="honor-card in-progress"><div class="seal">▤</div><div><p class="honor-type">PROFESSIONAL CERTIFICATE</p><h3>Google Data Analytics</h3><p>Professional Certificate · A structured path through analytical thinking, spreadsheets, SQL, visualization, and data-informed decision-making.</p><div class="honor-progress"><span><i></i></span><b>IN PROGRESS</b></div></div></article>
+        <article class="honor-card"><div class="seal">✦</div><div><p class="honor-type">AI DEVELOPMENT</p><h3>Claude Code 101</h3><p>Anthropic · Hands-on exposure to modern AI-assisted development practices, productive workflows, and responsible use of coding assistants.</p><div class="honor-status done">COMPLETED</div></div></article>
+        <article class="honor-card"><div class="seal">♜</div><div><p class="honor-type">RESPONSIBLE AI</p><h3>Ethics &amp; Governance of AI</h3><p>World Health Organization · Explored responsible AI principles, governance considerations, and the importance of human-centered technology.</p><div class="honor-status done">COMPLETED</div></div></article>
+      </div>
+      <div class="honors-footer"><p><b>THE FULL RECORD</b><span>For education, experience, projects, and technical skills, read my complete resume.</span></p><a class="btn primary" href="assets/Dipesh_ThaShrestha_Resume.pdf" download>Read the Full Scroll <span>↓</span></a></div>
+    </section>
+
+    <section id="raven" class="raven section reveal">
+      <div class="raven-art">♜</div>
+      <div><p class="panel-kicker">SEND A RAVEN</p><h2>LET’S BUILD SOMETHING<br><span>WORTH REMEMBERING.</span></h2><p>Interested in data analytics, data engineering, or a data-driven project? Let’s connect and turn a real question into a useful answer.</p></div>
+      <form id="contactForm">
+        <input id="name" placeholder="Your name" required>
+        <input id="email" type="email" placeholder="Your email" required>
+        <textarea id="message" placeholder="Your message" required></textarea>
+        <button class="btn primary" type="submit">Send the Raven <span>→</span></button>
+      </form>
+    </section>
+  </main>
+
+  <footer><span>“FROM RAW DATA, CLARITY RISES.”</span><div><a href="mailto:dipeshthashrestha1@gmail.com">Email</a><a href="https://www.linkedin.com/in/dipesh-tha-shrestha/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/dipeshthashrestha1" target="_blank" rel="noreferrer">GitHub</a></div></footer>
+
+  <dialog id="modal"><button class="close" aria-label="Close">×</button><p class="panel-kicker" id="modalKicker"></p><h2 id="modalTitle"></h2><p id="modalBody"></p><div class="modal-outcomes" id="modalOutcomes"></div><div class="modal-tags" id="modalTags"></div><a id="modalLink" class="btn primary" target="_blank" rel="noreferrer">Open Project <span>↗</span></a></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
